@@ -1,0 +1,19 @@
+
+@import "../../bower_components/foundation-sites/scss/settings/_settings.scss";
+@import "../../bower_components/foundation-sites/scss/foundation.scss";
+@import '../css/fonts';
+
+@include foundation-global-styles;
+@include foundation-xy-grid-classes;
+
+body{
+    font-family: 'dinpro-light', Arial, sans-serif;
+    color:#fff;
+ }
+ 
+@import "_header.scss";
+@import "_banner.scss";
+@import "_gallery.scss";
+@import "_reviews.scss";
+
+

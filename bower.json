@@ -1,0 +1,9 @@
+{
+  "name": "learn-foundation-6",
+  "description": "Learn Foundation 6 - brainscloud.ru",
+  "author": "Dmitry Valak - brainscloud.ru",
+  "devDependencies": {
+    "foundation-sites": "^6.4.3",
+    "slick-carousel": "^1.8.1"
+  }
+}

@@ -1,0 +1,90 @@
+.js-header-slider{
+    .slick-prev, .slick-next{
+        height: 40px;
+        width: 40px;
+        z-index: 2;
+        background-color: #fff;
+    }
+
+    .slick-prev:before, .slick-next:before{
+        font-size: 40px;
+        color:#000;
+    }
+    .slick-prev{
+        left: 115px;
+
+    }
+    .slick-next{
+        right: 115px;
+
+    }
+
+}
+
+
+.main-banner{
+    background: url('../img/slider.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    .banner-wrap{
+        //display: flex;
+       padding-top: 135px; 
+       min-height: 495px;
+    }
+
+    .slogan{
+    margin: 40px 0;
+    font-family: 'dinpro-medium', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    text-align: right;
+    &__color{
+        color:#461f4b;
+        text-align: left;
+    }
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .main-banner{
+        
+        .banner-wrap{
+        
+           // padding-top: 135px; 
+           // min-height: 495px;
+        }
+    
+        .slogan{
+            font-size: 30px;
+        }
+    }
+
+
+}
+
+@media all and (max-width: 1024px) {
+    .js-header-slider{
+        .slick-prev, .slick-next{
+            display: none;
+            background:none;
+        }
+    
+        .slick-prev:before, .slick-next:before{
+            display: none;
+        }
+    }
+    }
+
+@media all and (max-width: 640px) {
+    
+    .main-banner{
+    .slogan{
+        
+        text-align: center;
+        &__color{
+            color:#fff;
+            text-align: center;
+        }
+        }
+}
+}
