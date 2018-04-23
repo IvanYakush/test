@@ -45,6 +45,7 @@
         border-bottom: 1px solid #808080;
         background-color: #000;
         padding-bottom: 3px;
+        color:#fff;
 
     }
     input[type='submit']{
@@ -71,7 +72,9 @@
 }
 
 .contacts{
+    display: flex;
     font-size: 16px;
+    align-items: center;
     &-list{
         padding-left: 0;
 
@@ -86,7 +89,7 @@
     align-items: center;
     img{
         margin: 0 auto;
-        margin-bottom: 20px;
+        
 
     }
 }
@@ -153,6 +156,9 @@
     text-align: right;
 }
 
+.navigation-button{
+    display: none;
+}
 .navigation-list{
     display: flex;
     justify-content: space-around;
@@ -322,8 +328,9 @@
 .shopping-card{
     display: none;
 }
-}
+
 .navigation-button{
+    display: block;
     text-align: center;
     margin: 10px;
 }
@@ -350,4 +357,5 @@
     }
 .opened{
     display: flex;
+}
 }
